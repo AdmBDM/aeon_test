@@ -246,7 +246,7 @@ span {
 
 .case_item {
 	width: 502px;
-	height: 328px;
+	height: auto;
 	background: var(--blue_icon_color);
 	border-radius: 30px;
 	display: flex;
@@ -442,9 +442,11 @@ span {
 		text-align: center;
 	}
 
+	.our_case_head,
 	.cost_item .row1,
 	.cost_item .row1 > span {
 		font-size: 31px;
+		line-height: 37px;
 	}
 
 	.description_item,
@@ -470,12 +472,26 @@ span {
 		margin-bottom: 0;
 	}
 
+	.case_item {
+		width: 100%;
+	}
+	.case_item_text {
+		margin-right: 10px;
+		border-radius: 20px;
+	}
+
+	.case_item_text,
+	.case_item_img {
+		width: 45%;
+	}
+
+	.case_item_img img {
+		width: 100%;
+	}
 }
 
-@media screen and (max-width: 1024px)  {
-}
+/*@media screen and (max-width: 1024px)  {*/
+/*}*/
 
-@media screen and (max-width: 800px)  {
-}
-
-
+/*@media screen and (max-width: 800px)  {*/
+/*}*/
